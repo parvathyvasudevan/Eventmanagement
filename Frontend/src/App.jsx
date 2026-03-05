@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import UserProfile from './pages/UserProfile';
 import Payment from './pages/Payment';
 import ThankYou from './pages/ThankYou';
+import Chatbot from './components/Chatbot';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/payment" element={<Protected><Payment user={user} /></Protected>} />
         <Route path="/thank-you" element={<Protected><ThankYou /></Protected>} />
       </Routes>
+      <Chatbot />
     </div>
   );
 

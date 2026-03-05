@@ -19,6 +19,7 @@ app.use('/api/events', require('./routes/event'));
 app.use('/api/bookings', require('./routes/booking'));
 app.use('/api/upload', require('./routes/upload'));
 app.use('/api/coupons', require('./routes/coupon'));
+app.use('/api/chat', require('./routes/chat'));
 
 
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
