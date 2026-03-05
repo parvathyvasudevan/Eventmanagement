@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "multer": "^2.1.0",
+    "razorpay": "^2.9.6"
+  }
+}
